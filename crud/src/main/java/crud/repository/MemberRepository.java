@@ -1,7 +1,12 @@
 package crud.repository;
 
-import crud.irepository.ICrudRepository;
+import org.springframework.data.repository.CrudRepository;
 import crud.model.MemberDO;
 
-public interface MemberRepository extends ICrudRepository<MemberDO, Long>{
+/**
+ * 
+ * @author sachin
+ *
+ */
+public interface MemberRepository extends CrudRepository<MemberDO, Long> {
 }

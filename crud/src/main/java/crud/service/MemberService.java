@@ -1,11 +1,18 @@
 package crud.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import crud.iservice.IMemberService;
 import crud.model.MemberDO;
 import crud.repository.MemberRepository;
 
+/**
+ * 
+ * @author sachin
+ *
+ */
+@Service
 public class MemberService implements IMemberService {
 
 	@Autowired
@@ -19,18 +26,6 @@ public class MemberService implements IMemberService {
 	@Override
 	public MemberDO findOne(Long id) {
 		return memberRepository.findOne(id);
-	}
-
-	@Override
-	public Iterable<MemberDO> findAll() {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	@Override
-	public Long count() {
-		// TODO Auto-generated method stub
-		return null;
 	}
 
 	@Override

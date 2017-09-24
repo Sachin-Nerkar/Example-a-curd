@@ -5,7 +5,12 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
-@Entity(name = "Branch")
+/**
+ * 
+ * @author sachin
+ *
+ */
+@Entity(name = "branch")
 public class BranchDO {
 
 	public long getId() {

@@ -1,0 +1,7 @@
+crud/Application.class
+crud/iservice/IMemberService.class
+crud/repository/MemberRepository.class
+crud/controller/MemberController.class
+crud/model/MemberDO.class
+crud/model/BranchDO.class
+crud/service/MemberService.class

@@ -1,8 +1,20 @@
 package crud.iservice;
 
-import crud.irepository.ICrudRepository;
+import org.springframework.stereotype.Service;
+
 import crud.model.MemberDO;
 
-public interface IMemberService extends ICrudRepository<MemberDO, Long>{
-	
+/**
+ * 
+ * @author sachin
+ *
+ */
+@Service
+public interface IMemberService {
+
+	MemberDO save(MemberDO entity);
+
+	MemberDO findOne(Long id);
+
+	void delete(MemberDO entity);
 }

@@ -1,0 +1,7 @@
+/home/sachin/gitrepo/crud/src/main/java/crud/repository/MemberRepository.java
+/home/sachin/gitrepo/crud/src/main/java/crud/controller/MemberController.java
+/home/sachin/gitrepo/crud/src/main/java/crud/model/MemberDO.java
+/home/sachin/gitrepo/crud/src/main/java/crud/Application.java
+/home/sachin/gitrepo/crud/src/main/java/crud/iservice/IMemberService.java
+/home/sachin/gitrepo/crud/src/main/java/crud/model/BranchDO.java
+/home/sachin/gitrepo/crud/src/main/java/crud/service/MemberService.java
